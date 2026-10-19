@@ -2,7 +2,7 @@
 name: waterfall-email
 description: "Score a cheapest-first email waterfall: burn inputs you hold before any paid finder, stop a row on 4xx instead of retrying the next vendor, and refuse sendable until verify = deliverable. Use when finding work emails for a named list, routing enrichment credits, or checking whether a found address is ready to send."
 argument-hint: "[person or draft | score]"
-allowed-tools: Read Write Bash(python3 ${CLAUDE_SKILL_DIR}/scripts/score.py:*)
+allowed-tools: Read Write(./gtm/**) Bash(python3 ${CLAUDE_SKILL_DIR}/scripts/score.py:*)
 license: MIT
 models: ""
 ---
