@@ -1,0 +1,36 @@
+{
+  "name": "@jmc-gtm/claude-waterfall-email",
+  "version": "0.1.1",
+  "description": "Score a cheapest-first email waterfall: held inputs first, stop on 4xx, refuse sendable until verify = deliverable. Deterministic, stdlib-only Python scorer. No network, no spend, no send.",
+  "license": "MIT",
+  "author": "JMC Go-to-Market Systems",
+  "homepage": "https://github.com/cmj-hub/claude-waterfall-email#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmj-hub/claude-waterfall-email.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmj-hub/claude-waterfall-email/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "claude-plugin",
+    "email-waterfall",
+    "enrichment",
+    "deliverability",
+    "b2b",
+    "gtm"
+  ],
+  "files": [
+    ".claude-plugin",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
